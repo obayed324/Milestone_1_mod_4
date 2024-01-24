@@ -13,7 +13,7 @@ h1 {
     color: rgb(243, 169, 33);
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -54,4 +54,40 @@ section {
     background-image: url(images/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+
+.half-widthh {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    border-left: solid blue;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+.last {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#web {
+    border-left: 3px solid;
+    border-image: linear-gradient(black, tomato);
+    border-image-slice: 1;
+}
+
+#w3 {
+    border-left: 3px solid;
+    border-image: linear-gradient(blue, tomato);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
